@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <item android:id="@+id/pro"
+                android:title="Profile"/>
+        <item android:id="@+id/se"
+                android:title="Search Donor"/>
+        <group>
+                <item android:title="About Blood"
+                        android:enabled="false"/>
+                <item android:id="@+id/tips"
+                        android:title="Blood Donation Tips"/>
+                <item android:id="@+id/facts"
+                        android:title="Blood Facts"/>
+                <item android:id="@+id/com"
+                        android:title="Blood Compatibility Chart"/>
+        </group>
+       <group>
+               <item android:title="Communication"
+                   android:enabled="false"/>
+               <item android:id="@+id/logout"
+                   android:title="Logout"/>
+               <item android:id="@+id/delete"
+                   android:title="Delete My Account"/>
+               <item android:id="@+id/share"
+                   android:title="Share"/>
+               <item android:id="@+id/rate"
+                   android:title="Rate Me"/>
+       </group>
+</menu>

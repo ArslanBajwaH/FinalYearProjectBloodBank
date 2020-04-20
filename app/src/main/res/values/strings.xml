@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">BloodBank</string>
+    <string name="country_prompt">Choose a bloodGroup</string>
+
+    <string-array name="blooad_groups">
+        <item>choose Blood group</item>
+        <item>A+</item>
+        <item>O+</item>
+        <item>B+</item>
+        <item>AB+</item>
+        <item>A-</item>
+        <item>O-</item>
+        <item>B-</item>
+        <item>AB-</item>
+    </string-array>
+
+</resources>
